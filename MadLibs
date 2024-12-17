@@ -1,0 +1,21 @@
+# Mad Libs Story
+adj1 = 'sunny'
+adj2 = 'playful'
+adj3 = 'golden'
+adj4 = 'unforgettable'
+noun = 'idowu'
+verb = 'running'
+animal_choice = "lion"
+if animal_choice == "lion":
+    animal_action = "roared loudly"
+elif animal_choice == "dog":
+    animal_action = "barking loudly"
+else:
+    animal_action = "nothing"
+# The story
+story = f"""
+On a beautiful {adj1} day, I went to the zoo. I saw a funny {adj2} monkey swinging from the trees. Then, I spotted a majestic {adj3} lion lounging in the sun. What a wild and {adj4} experience!. On the same day a hunter called {noun} saw a {verb} {animal_choice} {animal_action} coming toward him and he ran for his life.
+"""
+# display the final story
+print("\nhere is your Mad Libs story:")
+print(story)
